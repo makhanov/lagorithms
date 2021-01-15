@@ -22,7 +22,7 @@ def twoSum(nums, target):
             return [i, second_index]
 
 #second brute-force method
-#O(n^2)
+#O(n^2) time
 def twoSumv2(nums, target):
     for i in range(len(nums)):
         for j in range(i+1, len(nums)):
